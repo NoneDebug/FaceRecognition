@@ -7,7 +7,6 @@ It's a trying to implements a faceRecognition through PC and Raspberry Pi.
 ## v1
 修复了一些bug
 
-
 # 目前目录组织结构
 
 ```
@@ -23,3 +22,8 @@ It's a trying to implements a faceRecognition through PC and Raspberry Pi.
     ├── preProcess.py    # 预处理文件脚本，对注册用户
     └── register.py      # 注册文件脚本，用以注册目录用户（调用preProcess函数以及createPickle函数）
 ```
+
+# 此项目已闲置
+
+- 因为，本来的目标识别系统是用来设计门禁和开锁系统的，但是由于硬件电机和现场布置存在诸多问题，故放弃。
+- 本项目依然可以实现一个基本的人脸识别功能，包括用户可交互的GUI界面，并包括打包程序。
